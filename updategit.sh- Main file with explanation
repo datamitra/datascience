@@ -1,0 +1,28 @@
+git add *
+git commit -m "test"
+#git config credential.helper store
+git push
+
+
+# to set who is commiting
+#git config --global user.name "datamitra"
+#git config --global user.email "datamitra1@gmail.com"
+
+
+#Short cut
+# ls -al | grep git
+#.gitconfig  is one file:::
+#[user]
+#	email = datamitra1@gmail.com
+#	name = datamitra
+#[credential]
+#	helper = manager
+
+#.git-credentials  is one file:::
+#https://datamitra:mypassword@github.com
+
+#for removing the files
+#git rm --cached filename -> to remove the files 
+#https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo
+
+
